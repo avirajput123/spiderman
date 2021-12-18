@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.footer{
+    height: 350px;
+    width: 100vw;
+}
+footer .footer-element{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    border: lightblue 10px double;
+    border-radius: 10px;
+}
+footer .footer-element:nth-child(2n):{
+    background-color: lightsalmon;
+}
+
+footer.footer-element:nth-child(2n):hover{
+    background-color: lightslategray;
+}
+footer.footer-element:nth-child(2n+1):hover{
+    background:white;
+}
+footer.footer-element:nth-child(2n+1){
+    background: yellowgreen;
+}

@@ -1,0 +1,58 @@
+body,
+html {
+    background: #090920;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    border: 10px groove blue;
+    height: 400px;
+    width: 600px;
+    background: lightskyblue;
+    position: relative;
+}
+
+span {
+    color: black
+}
+
+div {
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background: BLUE;
+    margin: 5px;
+}
+
+section {
+    height: 2px;
+    background-color: blue;
+    width: 100%;
+    top: 28px;
+    position: absolute;
+}
